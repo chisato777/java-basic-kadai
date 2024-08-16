@@ -1,12 +1,12 @@
 package kadai_015;
 
 public class Car_Chapter15 {
-	private int gear = 1;
-	private int speed = 10;
+	private int gear = 0;
+	private int speed = 0;
 
-	public Car_Chapter15(int gear, int speed) {
-		this.gear = gear;
-		this.speed = speed;
+	public Car_Chapter15() {
+		this.gear = 1;
+		this.speed = 10;
 	}
 
 
