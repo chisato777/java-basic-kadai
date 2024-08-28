@@ -7,8 +7,8 @@ abstract public class Kato_Chapter18 {
 	public String address = "東京都中野区〇×";
 		
 	public void commonIntroduce() {
-		System.out.println("私の名前は" + this.familyName + givenName + "です");
-		System.out.println("住所は" + this.address + "です");
+		System.out.println("私の名前は" + familyName + givenName + "です");
+		System.out.println("住所は" + address + "です");
 		
 	}
 	
@@ -17,6 +17,7 @@ abstract public class Kato_Chapter18 {
 	public void execIntroduce() {
 		commonIntroduce();
 		eachIntroduce();
+		System.out.println();
 	}
 	
 	}	
