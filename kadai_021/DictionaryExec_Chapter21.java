@@ -6,11 +6,9 @@ public class DictionaryExec_Chapter21 {
 		// TODO 自動生成されたメソッド・スタブ
 		Dictionary_Chapter21 dictionary = new Dictionary_Chapter21();
 
-		dictionary.addWord();
+		String[] words = { "apple", "banana", "grape", "orange" };
 
-		String[] wordsToSerach = { "apple", "banana", "grape", "orange" };
-
-		dictionary.searchWord(wordsToSearch);
+		dictionary.searchWord(words);
 	}
 
 }
